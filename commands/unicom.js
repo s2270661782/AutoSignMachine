@@ -9,12 +9,12 @@ exports.describe = 'unicom任务'
 exports.builder = function (yargs) {
   return yargs
     .option('user', {
-      describe: '用于登录的手机号码',
+      describe: '17576010265',
       default: '',
       type: 'string'
     })
     .option('password', {
-      describe: '用于登录的账户密码',
+      describe: '200265',
       default: '',
       type: 'string'
     })
@@ -24,7 +24,7 @@ exports.builder = function (yargs) {
       type: 'string'
     })
     .option('cookies', {
-      describe: '签到cookies',
+      describe: '3f31e4f31439ef1c9288878871f9b2c23b72d0bdaf2b2677cc32c398d6f137e38606ffd1b16c8156c08606470a43014d91afde2bc4a357a0a81d23b12b303b332a56c74b8ed34516da6def8e8cdfde29',
       default: '',
       type: 'string'
     })
