@@ -31,7 +31,7 @@ exports.builder = function (yargs) {
     .help()
     .showHelpOnFail(true, '使用--help查看有效选项')
     .epilog('copyright 2020 LunnLew');
-}
+}    
 
 exports.handler = async function (argv) {
   var command = argv._[0]
